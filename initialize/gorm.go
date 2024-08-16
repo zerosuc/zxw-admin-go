@@ -131,7 +131,7 @@ func CreateDb() error {
 	createSql := fmt.Sprintf("CREATE DATABASE IF NOT EXISTS `%s` DEFAULT CHARACTER "+
 		"SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;", global.Viper.Get("mysql.db-name"))
 	dsn := mysqlEmptyDsn()
-	fmt.Println(createSql, dsn)
+	//fmt.Println(createSql, dsn)
 
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {

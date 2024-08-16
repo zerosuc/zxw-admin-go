@@ -363,7 +363,7 @@ func initRoleData(db *gorm.DB) {
 					Name:      "Cenu1-1",
 					Path:      "cenu1-1",
 					Component: "cenu/cenu1/cenu1-1/index.vue",
-					Meta:      authority.Meta{Title: "负载均衡"},
+					Meta:      authority.Meta{Title: "Deployment"},
 					Sort:      1,
 				},
 				&authority.MenuModel{
@@ -371,7 +371,7 @@ func initRoleData(db *gorm.DB) {
 					Name:      "Cenu1-2",
 					Path:      "cenu1-2",
 					Component: "cenu/cenu1/cenu1-2/index.vue",
-					Meta:      authority.Meta{Title: "cenu1-2"},
+					Meta:      authority.Meta{Title: "DaemonSet"},
 					Sort:      2,
 				},
 				&authority.MenuModel{
