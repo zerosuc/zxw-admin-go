@@ -1,0 +1,8 @@
+.idea
+data
+*.log
+docker-compose/mysql/data/
+docker-compose/redis/data/
+*.csv
+lock.txt
+log/*.log
